@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bags Shop</title>
+    <link rel="stylesheet" href="/assets/styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <!-- Hero-section -->
+    <div class="hero-section">
+      <div class="h-brd-b">
+        <header
+          class="flex justify-between items-center flex-wrap w-10/12 sm:w-11/12 md:w-10/12 lg:w-8/12"
+        >
+          <div class="logo-section flex items-center gap-6 sm:gap-4">
+            <i class="fa-solid fa-bars"></i>
+            <div class="logo"><a href="">Constructor</a></div>
+          </div>
+          <nav class="hidden sm:flex">
+            <ul class="flex items-center gap-9 sm:gap-3 md:gap-6">
+              <a href="/women">
+                <li>Women</li>
+              </a>
+              <a href="/men">
+                <li>Men</li>
+              </a>
+              <a href="/children">
+                <li>Children</li>
+              </a>
+            </ul>
+          </nav>
+
+          <div class="search-section flex items-center">
+            <i class="fa-solid fa-magnifying-glass md:pr-5"></i>
+            <input class="hidden sm:flex" type="text" placeholder="Search..." />
+          </div>
+
+          <div class="left-section flex items-center">
+            <div class="register-section flex items-center gap-9 sm:gap-6">
+              <div class="registration flex items-center gap-6 sm:gap-3">
+                <i class="fa-solid fa-user"></i>
+                <div class="account hidden md:flex">Account</div>
+              </div>
+              <div class="cart flex items-center gap-6 sm:gap-3">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div class="bag hidden md:flex">Bag</div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <section class="title sm:py-[8rem]">
+        <h1
+          class="text-[3rem] font-bold w-3/5 mx-auto sm:w-1/1 sm:font-normal sm:text-[4rem] sm:py-[1rem]"
+        >
+          New <span class="sm:font-bold">Styles</span> Are Here
+        </h1>
+        <p class="w-3/6 mx-auto sm:w-1/1 sm:pb-[1rem] py-[.5rem]">
+          Discover The Lasts Preminum features in our collection
+        </p>
+        <div class="links hidden sm:block">
+          <a href="">Shop Women</a>
+          <a href="">Shop Men</a>
+        </div>
+      </section>
+    </div>
+
+    <main
+      class="w-11/12 sm:w-11/12 md:w-10/12 lg:w-8/12 mx-auto flex-nowrap relative"
+    >
+      <!-- What's New -->
+      <a class="shop-now top-[-30px] sm:top-[-20px]" href="">Shop Now</a>
+      <section class="new-items mx-auto overflow-x-hidden">
+        <div class="title-swipe flex justify-between items-center">
+          <div class="titte flex items-center mt-10">
+            <img
+              loading="lazy"
+              src="/assets/images/new_releases.svg"
+              alt="info-icon"
+            />
+            <h4 class="bg-text text-[1.3rem] sm:text-[1.3rem] pl-3">
+              What's New
+            </h4>
+            <div
+              class="bg-text text-[5rem] sm:text-[8rem] uppercase font-bold opacity-5 absolute left-0 whitespace-nowrap"
+            >
+              What's New
+            </div>
+          </div>
+
+          <div class="whole-section flex items-center gap-x-10 mt-10">
+            <div class="text text-[1.3rem] hidden sm:block">Whole Section</div>
+
+            <div class="buttons flex items-center gap-x-4">
+              <button>
+                <img
+                  class="rounded-full bg-white p-[.5px] sm:p-[5px]"
+                  src="/assets/images/Icon.svg"
+                  alt="left-arrow-icon"
+                />
+              </button>
+              <button>
+                <img
+                  class="rounded-full bg-white p-[.5px] sm:p-[5px]"
+                  src="/assets/images/Iconr.svg"
+                  alt="right-arrow-icon"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="cards flex items-center gap-5 flex-wrap sm:flex-nowrap">
+          <div
+            class="card text-center flex justify-center items-center flex-col bg-[#EBDDCF] w-full sm:w-1/2 rounded-[10px] py-[50px]"
+          >
+            <div class="name text-[#CC7429] text-[20px] font-bold">
+              Brown Travel Bag
+            </div>
+            <img
+              class="py-10 h-[280px]"
+              src="/assets/images/Image.png"
+              alt="Bag"
+            />
+            <div
+              class="price rounded-[20px] bg-[#CC7429] px-[20px] py-[7px] text-white"
+            >
+              $90
+            </div>
+            <div class="color flex items-center gap-x-2 pt-8">
+              <div class="circle rounded-full bg-blue-500 p-[8px]"></div>
+              <div class="circle rounded-full bg-red-500 p-[8px]"></div>
+              <div class="circle rounded-full bg-green-500 p-[8px]"></div>
+            </div>
+          </div>
+          <div
+            class="card text-center flex justify-center items-center flex-col bg-[#DBE7E0] w-full sm:w-1/2 rounded-[10px] py-[50px]"
+          >
+            <div class="name text-[#4D5E80] text-[20px] font-bold">
+              Brown Travel Bag
+            </div>
+            <img
+              class="py-10 h-[280px]"
+              src="/assets/images/Image1.png"
+              alt="Bag"
+            />
+            <div
+              class="price rounded-[20px] bg-[#4D5E80] px-[20px] py-[7px] text-white"
+            >
+              $120
+            </div>
+            <div class="color flex items-center gap-x-2 pt-8">
+              <div class="circle rounded-full bg-blue-500 p-[8px]"></div>
+              <div class="circle rounded-full bg-black p-[8px]"></div>
+              <div class="circle rounded-full bg-green-500 p-[8px]"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bestsellers -->
+
+      <section class="new-items mx-auto overflow-x-hidden">
+    
+        <div class="title-swipe flex justify-between items-center">
+          <div class="titte flex items-center mt-10">
+            <img
+              loading="lazy"
+              src="/assets/images/new_releases.svg"
+              alt="info-icon"
+            />
+            <h4 class="bg-text text-[1.3rem] sm:text-[1.3rem] pl-3">
+              Bestsellers
+            </h4>
+            <div
+              class="bg-text text-[5rem] sm:text-[8rem] uppercase font-bold opacity-5 absolute left-0 whitespace-nowrap"
+            >
+              Bestsellers
+            </div>
+          </div>
+
+          <div class="whole-section flex items-center gap-x-10 mt-10">
+            <div class="text text-[1.3rem] hidden sm:block">Whole Section</div>
+
+            <div class="buttons flex items-center gap-x-4">
+              <button>
+                <img
+                  class="rounded-full bg-white p-[.5px] sm:p-[5px]"
+                  src="/assets/images/Icon.svg"
+                  alt="left-arrow-icon"
+                />
+              </button>
+              <button>
+                <img
+                  class="rounded-full bg-white p-[.5px] sm:p-[5px]"
+                  src="/assets/images/Iconr.svg"
+                  alt="right-arrow-icon"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="cards flex flex-col gap-5">
+          <!-- Cards Group -->
+          <div class="cards-group flex items-center gap-5 flex-wrap sm:flex-nowrap">
+            <div
+              class="card text-center flex justify-center items-center flex-col bg-[#DCE0E8] w-full sm:w-1/3 rounded-[10px] py-[45px]"
+            >
+              <div class="name text-[#CC7429] text-[16px] font-bold">
+                Brown Backpack
+              </div>
+              <img
+                class="pt-5 pb-0 mb-[-25px]"
+                src="/assets/images/b4.png"
+                alt="Bag"
+              />
+              <div
+                class="price rounded-[20px] bg-[#CC7429] px-[20px] py-[8px] text-white"
+              >
+                $90
+              </div>
+              <div class="color flex items-center gap-x-2 pt-8">
+                <div class="circle rounded-full bg-blue-500 p-[8px]"></div>
+                <div class="circle rounded-full bg-red-500 p-[8px]"></div>
+                <div class="circle rounded-full bg-green-500 p-[8px]"></div>
+              </div>
+            </div>
+
+            <div
+              class="card text-center flex justify-center items-center flex-col bg-[#DBE7E0] w-full sm:w-1/3 rounded-[10px] py-[45px]"
+            >
+              <div class="name text-[#4D5E80] text-[16px] font-bold">
+                Gray Backpack
+              </div>
+              <img
+                class="pt-5 pb-0 mb-[-25px]"
+                src="/assets/images/b2.png"
+                alt="Bag"
+              />
+              <div
+                class="price rounded-[20px] bg-[#4D5E80] px-[20px] py-[8px] text-white"
+              >
+                $120
+              </div>
+              <div class="color flex items-center gap-x-2 pt-8">
+                <div class="circle rounded-full bg-blue-500 p-[8px]"></div>
+                <div class="circle rounded-full bg-black p-[8px]"></div>
+                <div class="circle rounded-full bg-green-500 p-[8px]"></div>
+              </div>
+            </div>
+
+            <div
+              class="card text-center flex justify-center items-center flex-col bg-[#EBDDCF] w-full sm:w-1/3 rounded-[10px] py-[45px]"
+            >
+              <div class="name text-[#4D5E80] text-[16px] font-bold">
+                Black Backpack
+              </div>
+              <img
+                class="pt-5 pb-0 mb-[-25px]"
+                src="/assets/images/b1.png"
+                alt="Bag"
+              />
+              <div
+                class="price rounded-[20px] bg-[#4D5E80] px-[20px] py-[8px] text-white"
+              >
+                $120
+              </div>
+              <div class="color flex items-center gap-x-2 pt-8">
+                <div class="circle rounded-full bg-blue-500 p-[8px]"></div>
+                <div class="circle rounded-full bg-black p-[8px]"></div>
+                <div class="circle rounded-full bg-green-500 p-[8px]"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Cards Group -->
+          <div class="cards-group flex items-center gap-5 flex-wrap sm:flex-nowrap">
+            <div
+              class="card text-center flex justify-center items-center flex-col bg-[#EEEBE6] w-full sm:w-1/3 rounded-[10px] py-[45px]"
+            >
+              <div class="name text-[#CC7429] text-[16px] font-bold">
+                Brown Backpack
+              </div>
+              <img
+                class="pt-5 pb-0 mb-[-25px]"
+                src="/assets/images/b5.png"
+                alt="Bag"
+              />
+              <div
+                class="price rounded-[20px] bg-[#29CC39] px-[20px] py-[8px] text-white"
+              >
+                $90
+              </div>
+              <div class="color flex items-center gap-x-2 pt-8">
+                <div class="circle rounded-full bg-blue-500 p-[8px]"></div>
+                <div class="circle rounded-full bg-red-500 p-[8px]"></div>
+                <div class="circle rounded-full bg-green-500 p-[8px]"></div>
+              </div>
+            </div>
+
+            <div
+              class="card text-center flex justify-center items-center flex-col bg-[#DCE0E8] w-full sm:w-1/3 rounded-[10px] py-[45px]"
+            >
+              <div class="name text-[#4D5E80] text-[16px] font-bold">
+                Gray Backpack
+              </div>
+              <img
+                class="pt-5 pb-0 mb-[-25px]"
+                src="/assets/images/b7.png"
+                alt="Bag"
+              />
+              <div
+                class="price rounded-[20px] bg-[#4D5E80] px-[20px] py-[8px] text-white"
+              >
+                $120
+              </div>
+              <div class="color flex items-center gap-x-2 pt-8">
+                <div class="circle rounded-full bg-blue-500 p-[8px]"></div>
+                <div class="circle rounded-full bg-black p-[8px]"></div>
+                <div class="circle rounded-full bg-green-500 p-[8px]"></div>
+              </div>
+            </div>
+
+            <div
+              class="card text-center flex justify-center items-center flex-col bg-[#EEEBE6] w-full sm:w-1/3 rounded-[10px] py-[45px]"
+            >
+              <div class="name text-[#4D5E80] text-[16px] font-bold">
+                Black Backpack
+              </div>
+              <img
+                class="pt-5 pb-0 mb-[-25px]"
+                src="/assets/images/b6.png"
+                alt="Bag"
+              />
+              <div
+                class="price rounded-[20px] bg-[#CC7429] px-[20px] py-[8px] text-white"
+              >
+                $120
+              </div>
+              <div class="color flex items-center gap-x-2 pt-8">
+                <div class="circle rounded-full bg-blue-500 p-[8px]"></div>
+                <div class="circle rounded-full bg-black p-[8px]"></div>
+                <div class="circle rounded-full bg-green-500 p-[8px]"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Looks at Insta -->
+
+      <section class="new-items mx-auto overflow-x-hidden">
+        <div class="title-swipe flex justify-between items-center">
+          <div class="titte flex items-center mt-10">
+            <img
+              loading="lazy"
+              src="/assets/images/new_releases.svg"
+              alt="info-icon"
+            />
+            <h4 class="bg-text text-[1.3rem] sm:text-[1.3rem] pl-3">
+             Looks at Instagram
+            </h4>
+            <div
+              class="bg-text text-[5rem] sm:text-[8rem] uppercase font-bold opacity-5 absolute left-0 whitespace-nowrap"
+            >
+              Instagram
+            </div>
+          </div>
+
+          <div class="whole-section flex items-center gap-x-10 mt-10">
+            <div class="text text-[1.3rem] hidden sm:block">Whole Section</div>
+
+            <div class="buttons flex items-center gap-x-4">
+              <button>
+                <img
+                  class="rounded-full bg-white p-[.5px] sm:p-[5px]"
+                  src="/assets/images/Icon.svg"
+                  alt="left-arrow-icon"
+                />
+              </button>
+              <button>
+                <img
+                  class="rounded-full bg-white p-[.5px] sm:p-[5px]"
+                  src="/assets/images/Iconr.svg"
+                  alt="right-arrow-icon"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="cards flex items-center flex-wrap sm:flex-nowrap box-border pb-20 gap-5">
+          <div class="w-1/2insta sm:w-1/4">
+            <img src="/assets/images/Imagel1.png" alt="Bag" />
+          </div>
+          <div class="w-1/2insta sm:w-1/4">
+            <img src="/assets/images/Imagel2.png" alt="Bag" />
+          </div>
+          <div class="w-1/2insta sm:w-1/4">
+            <img src="/assets/images/Imagel3.png" alt="Bag" />
+          </div>
+          <div class="w-1/2insta sm:w-1/4">
+            <img src="/assets/images/Imagel4.png" alt="Bag" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-11/12 sm:w-11/12 md:w-10/12 lg:w-8/12 mx-auto py-[60px]">
+      <div class="flex justify-between flex-wrap sm:flex-nowrap">
+        <div
+          class="quick-links flex gap-x-10 whitespace-nowrap flex-wrap mb-[60px] pr-10"
+        >
+          <div><a href="" class="text-zinc-600">Home</a></div>
+          <div><a href="" class="text-zinc-600">Services</a></div>
+          <div><a href="" class="text-zinc-600">Custoner Service</a></div>
+          <div><a href="" class="text-zinc-600">Shipping Rates</a></div>
+          <div><a href="" class="text-zinc-600">About</a></div>
+          <div><a href="" class="text-zinc-600">Reviews</a></div>
+          <div><a href="" class="text-zinc-600">Contact us</a></div>
+          <div><a href="" class="text-zinc-600">Returns & Exchanges</a></div>
+          <div><a href="" class="text-zinc-600">Store Policies</a></div>
+        </div>
+        <div class="s-1 s-1-logo">
+          <h3 class="logo font-bold text-zinc-600 text-[20px]"><a href="">Constructor</a></h3>
+          <div class="pt-10 whitespace-nowrap text-zinc-600 flex-wrap">
+            12 Water St. Vacouver, Bc <br />V^B 132 United States
+          </div>
+        </div>
+      </div>
+      <div
+        class="address-info flex items-center gap-x-10 text-sm text-zinc-600 pt-5 whitespace-nowrap flex-wrap"
+      >
+        <div class="term">2030 Company. All Rights Reseverd.</div>
+        <div class="term"><a href="">Terms & Conditions</a></div>
+        <div class="term pr-20"><a href="">Privacy Policy</a></div>
+        <div class="email flex justify-center items-center">
+          <input
+            type="email"
+            name=""
+            id=""
+            placeholder="Email"
+            class="bg-transparent"
+          />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 30 30"
+            fill="none"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M8 15.5925H19.17L14.29 20.4725C13.9 20.8625 13.9 21.5025 14.29 21.8925C14.68 22.2825 15.31 22.2825 15.7 21.8925L22.29 15.3025C22.68 14.9125 22.68 14.2825 22.29 13.8925L15.71 7.29249C15.5232 7.10523 15.2695 7 15.005 7C14.7405 7 14.4868 7.10523 14.3 7.29249C13.91 7.68249 13.91 8.31249 14.3 8.70249L19.17 13.5925H8C7.45 13.5925 7 14.0425 7 14.5925C7 15.1425 7.45 15.5925 8 15.5925Z"
+              fill="#C3CAD9"
+            />
+          </svg>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
